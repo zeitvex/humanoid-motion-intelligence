@@ -6,7 +6,7 @@
 
 > 移动、平衡、接触与操作协同，汇总相关论文、方法与项目。
 
-当前收录 **84** 篇论文／技术报告、**62** 个项目。
+当前收录 **86** 篇论文／技术报告、**62** 个项目。
 
 ## 本页导航
 
@@ -32,7 +32,7 @@
 
 利用视觉、物体状态与场景信息控制机器人交互。
 
-**20** 篇论文／报告 · **11** 个项目
+**21** 篇论文／报告 · **11** 个项目
 
 #### 论文与技术报告
 
@@ -47,6 +47,7 @@
 | [LEGS：在具身高斯泼溅环境中免遥操作微调人形VLA](论文逐篇解读/P332.md) | 组合MuJoCo动态网格、3DGS真实场景背景与程序化全身动作，生成可重渲染的视觉示范，微调VLA并通过SONIC驱动G1移动与操作。 | [原文](https://arxiv.org/abs/2606.01458) · [项目页](https://legsvla.github.io/) |
 | [OASIS：从仿真数据采集到真实人形移动操作](论文逐篇解读/P119.md) | 在Isaac Lab采集本体对齐轨迹并扩增视觉外观，训练迁移至真实G1的移动操作策略。 | [原文](https://arxiv.org/abs/2606.08548) · [代码](https://github.com/TeleHuman/OASIS) · [项目页](https://oasis-humanoid.github.io/) |
 | [Sony Ace：以事件视觉与强化学习应对高速对抗](论文逐篇解读/P482.md) | 以主动像素相机测位置、事件视觉估旋转，再用仿真训练的非对称Actor-Critic生成短时击球动作，并由约束优化筛除碰撞风险、生成复位轨迹。论文记录了与精英及职业球员的比赛结果，但样本和赛事规则限定了结论范围。 | [原文](https://www.nature.com/articles/s41586-026-10338-5) · [项目页](https://ace.ai.sony/) |
+| [PhysVAM：用多时域进度预测引导动态抓取](论文逐篇解读/P590.md) | 用多时域任务价值的查询特征条件化动作生成，以适应持续运动的抓取目标。 | [原文](https://arxiv.org/abs/2611.26105v1) · [项目页](https://metarobo.github.io/physvam.github.io/) |
 | [Psi0：分阶段学习人形移动操作并接入全身控制](论文逐篇解读/P192.md) | 分阶段训练视觉语言动作模型与动作专家，并由低层控制器执行人形移动和灵巧操作。 | [原文](https://arxiv.org/abs/2603.12263) · [代码](https://github.com/physical-superintelligence-lab/Psi0) · [项目页](https://psi-lab.ai/Psi0/) |
 | [Reflex：从机载视觉学习人形反应式接箱](论文逐篇解读/P490.md) | 先学习特权状态接箱控制，再通过潜变量对齐及带相机自运动历史的RGB-D编码实现视觉反应控制。 | [原文](https://arxiv.org/abs/2610.12772) |
 | [RopeFormer：用多次交互适应绳索动力学](论文逐篇解读/P573.md) | 把前几次动作及绳索响应保留在策略上下文中，使冻结策略适应未知柔性物体动力学。 | [原文](https://arxiv.org/abs/2609.23432v1) · [项目页](https://ropeformer.github.io/) |
@@ -81,7 +82,7 @@
 
 协调外力、柔顺控制、接触切换与负载变化。
 
-**21** 篇论文／报告 · **19** 个项目
+**22** 篇论文／报告 · **19** 个项目
 
 #### 论文与技术报告
 
@@ -94,6 +95,7 @@
 | [Play2Perfect：灵巧手预训练与精密装配微调](论文逐篇解读/P531.md) | 用多物体、多目标的强化学习预训练灵巧手，再针对插接微调。 | [原文](https://arxiv.org/abs/2606.26428) |
 | [SplitAdapter：基于因子化适配的负载感知人形移动操作](论文逐篇解读/P110.md) | 分别编码物体负载与本体动力学，再调制冻结策略层，适配人形搬运和Sim2Real任务。 | [原文](https://arxiv.org/abs/2606.03297) · [项目页](https://splitadapter.github.io/) |
 | [SteadyTray：以残差强化学习稳定人形托盘运输](论文逐篇解读/P377.md) | 冻结步态基座训练残差以稳定托盘负载，再蒸馏编码器接入相机物体位姿；G1仿真评估变速、推机器人与推物体，真机展示多类负载运输和扰动恢复。 | [原文](https://arxiv.org/abs/2603.10306) · [代码](https://github.com/AllenHuangGit/steadytray) · [项目页](https://steadytray.github.io/) |
+| [TipDex-VTLA：用视觉可靠度与触觉预测修正灵巧手动作](论文逐篇解读/P591.md) | 在光照变化和接触偏离预测时结合视觉可靠度与触觉核验修正未执行动作。 | [原文](https://arxiv.org/abs/2611.25683v1) · [代码](https://github.com/tiplab/TipDex-VTLA) · [项目页](https://tiplab.github.io/TipDex-VTLA/) |
 | [Uni-VLaT：让全身触觉参与人形动作决策](论文逐篇解读/P572.md) | 融合分布式全身触觉并预测未来多模态表征，适配预训练 VLA，为 SONIC 跟踪器提供接触感知动作。 | [原文](https://arxiv.org/abs/2609.35450v2) · [项目页](https://ggkiller-air.github.io/Uni-VLaT/) |
 | [VisForce：指尖力视觉对齐与目标条件灵巧操作](论文逐篇解读/P353.md) | VisForce将腕部图像上的当前指尖力线索与示范检索得到的目标力图像送入目标条件交叉注意力，再沿π0.5的动作生成路径输出手臂与手部增量动作。在UR10与RH56F1上评估力条件抓取、插入、倾倒、工具转移和受控滑移任务。 | [原文](https://arxiv.org/abs/2609.25785) |
 | [WiTac：用腕部视觉解释指尖接触](论文逐篇解读/P571.md) | 将指尖触觉、手部运动与腕部视觉融合为接触表示，为双臂 VLA 提供操作反馈。 | [原文](https://arxiv.org/abs/2611.21057v2) · [项目页](https://wrist-informed-tactile-representations.github.io/) |
